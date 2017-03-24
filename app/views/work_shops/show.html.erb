@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @work_shop.title %>
+</p>
+
+<p>
+  <strong>About:</strong>
+  <%= @work_shop.about %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @work_shop.location %>
+</p>
+
+<p>
+  <strong>Requirements:</strong>
+  <%= @work_shop.requirements %>
+</p>
+
+<p>
+  <strong>Includes:</strong>
+  <%= @work_shop.includes %>
+</p>
+
+<p>
+  <strong>Group size:</strong>
+  <%= @work_shop.group_size %>
+</p>
+
+<p>
+  <strong>About host:</strong>
+  <%= @work_shop.about_host %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @work_shop.active %>
+</p>
+
+<%= link_to 'Edit', edit_work_shop_path(@work_shop) %> |
+<%= link_to 'Back', work_shops_path %>
